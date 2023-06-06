@@ -6,7 +6,7 @@ test('test settings', () => {
     ['theme', 'gray'],
     ['music', 'off'],
     ['difficulty', 'nightmare'],
-  ])
+  ]);
 
   expect(settings1.settings).toEqual(userSettings);
 });
